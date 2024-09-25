@@ -33,7 +33,8 @@ def main():
            # print("\nCurrent Shopping List:")
             if shopping_list:
                 #for idx, item in enumerate(shopping_list, start=1):
-                    print(shopping_list)
+                for item in shopping_list:
+                  print(item)
             else:
                 print("The shopping list is empty.")
 
